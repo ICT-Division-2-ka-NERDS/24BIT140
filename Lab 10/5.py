@@ -1,0 +1,7 @@
+fin=open("5_in.txt","r")
+fout=open("5_out","w")
+st=fin.read()
+fout.write(st.upper())
+fin.close()
+fout.close()
+print("Copied into new file")
